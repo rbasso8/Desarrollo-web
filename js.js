@@ -6,6 +6,7 @@ const precio= [1500, 1650, 1550, 1600, 1700];
 const variedad= ["Cerveza Lager 1lt", "Cerveza Porter Negra 1lt", "Cerveza Red Ale 1lt", "Cerveza Stout 1lt", "Cerveza Blonde Wheat 1lt"]
 let cant= [0, 0, 0, 0,0]
 let total=[0,0,0,0,0];
+
 const saludo= {
     saludos: "Gracias por su compra, lo esperamos nuevamente",
     cerveza: "Cerveceria Artesanal - STOUT",
@@ -64,6 +65,7 @@ do{
             }
                 alert("Producto añadido al carrito")
             break;
+            /*OBJETO*/
         case 6: alert(saludo.saludos + "\n" +saludo.cerveza + "\n"+saludo.lugar)
         break;
         default: alert("Ingrese un número correctamente")
