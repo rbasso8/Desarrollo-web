@@ -244,4 +244,12 @@ const showHTML = () => {
 	valorTotal.innerText = `$${total}`;
 	countProducts.innerText = totalOfProducts;
 };
+let birras_variedad= [];
+birras_variedad [0] = "Lager Rubia"
+birras_variedad [1] = "Porter Negra"
+birras_variedad [2] = "Red Ale"
+birras_variedad [3] = "Stout Negra"
+birras_variedad [4] = "Blonde Wheat"
+console.log (birras_variedad);
+localStorage.setItem("variedad", birras_variedad);
 
